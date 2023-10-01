@@ -1,2 +1,1 @@
 SERIAL_DRIVER = vendor
-WPM_ENABLE = yes
