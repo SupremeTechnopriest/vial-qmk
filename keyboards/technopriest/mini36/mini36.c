@@ -230,9 +230,9 @@ static void render_current_wpm(void) {
 bool render_status(void) {
     oled_set_cursor(0, 0);
     if (keymap_config.swap_lctl_lgui) {
-        oled_write_raw_P(mac_logo, sizeof(mac_logo));
-    } else {
         oled_write_raw_P(windows_logo, sizeof(windows_logo));
+    } else {
+        oled_write_raw_P(mac_logo, sizeof(mac_logo));
     }
 
     oled_set_cursor(0, 3);
