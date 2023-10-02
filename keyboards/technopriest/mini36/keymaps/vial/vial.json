@@ -6,6 +6,33 @@
   "keycodes": [
     "qmk_lighting"
   ],
+  "customKeycodes": [
+    {
+      "name": "Cut",
+      "title": "Cut",
+      "shortName": "Cut"
+    },
+    {
+      "name": "Copy",
+      "title": "Copy to Clipboard",
+      "shortName": "Copy"
+    },
+    {
+      "name": "Paste",
+      "title": "Paste from Clipboard",
+      "shortName": "Paste"
+    },
+    {
+      "name": "Undo",
+      "title": "Undo last action",
+      "shortName": "Undo"
+    },
+    {
+      "name": "Redo",
+      "title": "Redo last undo",
+      "shortName": "Redo"
+    }
+  ],
   "menus": [
     "qmk_rgb_matrix"
   ],
